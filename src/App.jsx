@@ -27,6 +27,8 @@ function App() {
         <input
           type="text"
           placeholder="Please enter your name"
+          size="30"
+          width="500 px"
           onChange={(e) => setInput(e.target.value)}
         />
         <button onClick={() => setName(input)}>Submit</button>
